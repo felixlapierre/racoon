@@ -1,0 +1,27 @@
+{"events": [
+    {
+        "day": 1,
+        "type": "infection",
+        "country": "donutland"
+    },
+    {
+        "day": 5,
+        "type": "outbreak",
+        "country": "donutland"
+    },
+    {
+        "day": 17,
+        "type": "outbreak",
+        "country": "placeplace"
+    },
+    {
+        "day": 20,
+        "type": "close_borders",
+        "country": "placeplace"
+    },
+    {
+        "day": 30,
+        "type": "close_borders",
+        "country": "jefftopia"
+    }
+]}

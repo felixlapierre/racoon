@@ -1,0 +1,63 @@
+{
+    "countries": [
+        {
+            "name": "countryland",
+            "population": 172647,
+            "spread": 1.5,
+            "healthcare": 0.8,
+            "neighbors": [
+                "schnitzelia",
+                "jefftopia"
+            ]
+        },
+        {
+            "name": "jefftopia",
+            "population": 45998,
+            "spread": 0.6,
+            "healthcare": 1.2,
+            "neighbors": [
+                "countryland",
+                "placeplace"
+            ]
+        },
+        {
+            "name": "schnitzelia",
+            "population": 887845,
+            "spread": 1.0,
+            "healthcare": 1.5,
+            "neighbors": [
+                "countryland",
+                "placeplace"
+            ]
+        },
+        {
+            "name": "placeplace",
+            "population": 343739,
+            "spread": 1.3,
+            "healthcare": 0.9,
+            "neighbors": [
+                "jefftopia"
+            ]
+        },
+        {
+            "name": "donutnation",
+            "population": 34551,
+            "spread": 1.1,
+            "healthcare": 1.0,
+            "neighbors": [
+                "placeplace",
+                "schnitzelia",
+                "almondbox"
+            ]
+        },
+        {
+            "name": "almondbox",
+            "population": 121212,
+            "spread": 1.6,
+            "healthcare": 2.0,
+            "neighbors": [
+                "donutnation"
+            ]
+        }
+    ]
+}
