@@ -1,10 +1,8 @@
 data = require("./something.js");
-//behavior = require('/behavior.js');
+behavior = require('/behavior.js');
 
 countries = data.countries;
 events = data.events;
-
-console.log(events);
 
 function apply_event_to_country(event, country) {
 	if (event.type === "infection") {
@@ -42,7 +40,7 @@ function simulate(days) {
 			countries[country].infected_tomorrow = countries[country].infected_today
 			behavior.simulate_death(countries[country]);
 			behavior.simulate_propagation(countries[country]);
-			behavior.simulate_travel(countries[country]);
+			behavior.simulate_travel(countries[country], countries);
 			behavior.simulate_curing(countries[country]);
 		}
 		// behavior.simulate_death(countries);
@@ -52,7 +50,6 @@ function simulate(days) {
 		correct_data();
 	}
 
-	console.log(countries);
 	return countries;
 }
 
